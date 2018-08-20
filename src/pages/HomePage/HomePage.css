@@ -1,0 +1,41 @@
+
+.user-details-container {
+  padding: 75px;
+  margin: 0 0 20px 0;
+}
+
+.user-details {
+  margin: 0 0 20px 0;
+}
+.user-detail-imgs {
+  width: 70px;
+}
+.user-name {
+  margin: 0 0 20px 0;
+}
+
+.user-coins-count {
+  margin: 10px 0 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.user-coins-rate {
+  margin: 10px 0 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.user-coins-count img, .user-coins-rate img {
+  margin: 0 5px 0 0;
+}
+
+@media(max-width:500px){
+  .user-details-container {
+    padding: 15px
+  }
+  .user-detail-imgs {
+    width: 40px;
+  }
+}
+

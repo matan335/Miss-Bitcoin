@@ -1,0 +1,94 @@
+.app {
+  min-height: 83vh;
+  font-size:22px;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.app .app-content {
+  padding: 20px 0 0 0;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto; 
+}
+.app .btn{
+  padding: 13px;
+  margin: 10px;
+  font-size: inherit;
+  border: 1px solid #16161e99;
+  border-radius: 6px;
+  background-color: #ffdd7b;
+  cursor: pointer;
+}
+.app .btn svg{
+  color:white;
+}
+
+.app .btn:hover{
+  background-color: #ffbe02;;
+}
+.app [class^="flaticon-"]:before,
+.app [class*=" flaticon-"]:before,
+.app [class^="flaticon-"]:after,
+.app [class*=" flaticon-"]:after {
+    margin: 0; 
+}
+.app .main-nav{
+  padding: 12px;
+  height: 98px;
+  background-image: url(/static/media/BG-Bitcoin.f528b649.jpg);
+  background-size: 100vw 28vh;
+  background-repeat: no-repeat;
+}
+.nav-btn {
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 13px;
+  margin: 10px;
+  cursor: pointer;
+  color: white!important;
+  font-size:38px;
+}
+.nav-btn-container{
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+.flex{
+  display: flex
+}
+.align-center{
+  align-items: center;
+}
+.margin-right{
+  margin-right: 9px;
+}
+.width100{
+  width:100%
+}
+@media(max-width:730px){
+  .nav-btn {
+    font-size: 25px;
+  }
+}
+@media(max-width:570px){
+  .nav-btn {
+    width:10vw;
+    margin: 5px;
+    font-size: 20px;
+  }
+}
+@media(max-width:400px){
+  .app{
+    font-size: 14px;
+  }
+  .app .btn{
+    padding: 9px;
+    margin: 4px;
+  }
+  .nav-btn {
+    width:8vw;
+    margin: 5px;
+    font-size: 17px;
+  }
+}

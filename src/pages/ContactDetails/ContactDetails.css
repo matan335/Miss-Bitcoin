@@ -1,0 +1,45 @@
+.contact-details {
+  height: 100%;
+  padding: 25px;
+}
+
+.contact-details-header {
+  display: flex;
+  justify-content: space-between;
+  height: 40px; 
+}
+
+.contact-details-body {
+  margin-bottom: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-display-action {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-details-body img{
+  width:80px
+}
+.contact-details-header a:not(:last-child) {
+  margin: 0 10px 0 0; 
+}
+
+.contact-details .contact-details-row {
+  margin: 10px 0 0 0; 
+}
+
+.moves-list-container, .transter-coins-container {
+  margin: 20px 0;
+}
+.contact-TransferFund{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-TransferFund h3{
+  margin: 7px 10px;
+}

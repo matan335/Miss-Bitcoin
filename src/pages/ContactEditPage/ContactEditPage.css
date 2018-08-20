@@ -1,0 +1,61 @@
+.ContactEditPage{
+    padding: 25px;
+}
+.edit-actions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit-options{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.edit-options-item {
+    height: 236px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 4px;
+}
+.edit-options-item h4 {
+    font-size: 36px;
+    margin:20px 0;
+}
+.edit-form img{
+    display: block;
+    margin: 16px;
+    width: 125px;
+    height: 125px;
+}
+
+.contact-edit-page{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width:790px){
+    .edit-options-item {
+        height: auto;
+        margin: 0
+    }
+    .edit-options-item h4 {
+        font-size: 30px;
+        margin:10px 0;
+    }
+
+}
+@media(max-width:390px){
+    .edit-options-item h4 {
+        font-size: 24px;
+        margin: 4px 0;
+    }
+}

@@ -1,0 +1,19 @@
+.moves-list h2{
+    font-size:38px;
+    margin: 8px 0;
+}
+.moves-list-item{
+    margin: 10px;
+}
+
+@media(max-width:500px){ 
+    .moves-list h2{
+        font-size:22px;
+    }
+    .moves-list-item{
+        font-size: 14px
+    }
+    .moves-list-item h3 {
+        margin: 5px auto;
+    }
+}
